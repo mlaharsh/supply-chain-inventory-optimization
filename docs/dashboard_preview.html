@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Supply Chain Inventory Control — Executive Overview</title>
+<style>
+  :root {
+    --navy: #0b1f3a;
+    --ink: #182230;
+    --muted: #667085;
+    --line: #e4e7ec;
+    --bg: #f3f5f8;
+    --teal: #0e7c86;
+    --teal-soft: #d9eef0;
+    --amber: #d97706;
+    --amber-soft: #fef0c7;
+    --red: #b42318;
+    --red-soft: #fee4e2;
+    --orange: #dc6803;
+    --green: #067647;
+    --green-soft: #d1fadf;
+    --white: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); }
+  body {
+    width: 1440px; height: 900px; overflow: hidden;
+    font-family: "Segoe UI", Inter, Arial, sans-serif;
+    color: var(--ink);
+  }
+  .dash { width: 1440px; height: 900px; padding: 16px 20px 10px; display: flex; flex-direction: column; gap: 10px; }
+  header {
+    height: 54px; background: var(--navy); color: white; border-radius: 10px;
+    display: flex; align-items: center; justify-content: space-between; padding: 0 18px;
+  }
+  .brand { display: flex; align-items: baseline; gap: 14px; }
+  .brand h1 { font-size: 17px; letter-spacing: .08em; text-transform: uppercase; margin: 0; font-weight: 700; }
+  .brand span { font-size: 11px; color: #c7d7ea; letter-spacing: .02em; }
+  .filters { display: flex; gap: 8px; align-items: center; }
+  .chip {
+    border: 1px solid rgba(255,255,255,.22); background: rgba(255,255,255,.08);
+    color: #eaf1f8; border-radius: 999px; padding: 5px 10px; font-size: 10.5px; white-space: nowrap;
+  }
+  .chip strong { color: white; font-weight: 600; }
+  .kpis { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; height: 86px; }
+  .kpi { background: var(--white); border: 1px solid var(--line); border-radius: 9px; padding: 11px 13px; position: relative; overflow: hidden; }
+  .kpi::after { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--teal); }
+  .kpi.warn::after { background: var(--amber); }
+  .kpi.danger::after { background: var(--red); }
+  .kpi .label { font-size: 9.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  .kpi .value { font-size: 25px; font-weight: 700; letter-spacing: -.02em; margin-top: 5px; color: var(--navy); }
+  .kpi .sub { font-size: 9.5px; color: var(--muted); margin-top: 2px; }
+  .kpi.danger .value { color: var(--red); }
+  .main { display: grid; grid-template-columns: 1.55fr 1fr; grid-template-rows: 292px 210px; gap: 10px; }
+  .card { background: var(--white); border: 1px solid var(--line); border-radius: 9px; padding: 12px 14px; overflow: hidden; }
+  .card h2 { margin: 0 0 3px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--navy); font-weight: 700; }
+  .card .hint { font-size: 9.5px; color: var(--muted); margin-bottom: 9px; }
+  .heatmap-wrap { display: grid; grid-template-columns: 22px 1fr; grid-template-rows: 1fr 20px; gap: 4px; height: 220px; }
+  .y-axis { display: grid; grid-template-rows: repeat(3, 1fr); align-items: center; justify-items: center; font-size: 10px; font-weight: 700; color: var(--muted); }
+  .x-axis { grid-column: 2; display: grid; grid-template-columns: repeat(3, 1fr); align-items: center; justify-items: center; font-size: 10px; font-weight: 700; color: var(--muted); }
+  .heat-grid { display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); gap: 5px; }
+  .cell { border-radius: 6px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--navy); border: 1px solid rgba(11,31,58,.05); }
+  .cell .count { font-size: 25px; font-weight: 700; line-height: 1; }
+  .cell .seg { font-size: 9px; color: #475467; margin-top: 3px; letter-spacing: .05em; }
+  .cell .share { font-size: 8.5px; color: #667085; margin-top: 2px; }
+  .q1 { background: #eaf6f7; } .q2 { background: #d9eef0; } .q3 { background: #c4e5e8; }
+  .q4 { background: #edf7f8; } .q5 { background: #e3f2f3; } .q6 { background: #d4ebed; }
+  .q7 { background: #f4f9fa; } .q8 { background: #edf6f7; } .q9 { background: #e2f1f2; }
+  .queue table { width: 100%; border-collapse: collapse; font-size: 9.5px; }
+  .queue th { text-align: left; color: var(--muted); font-size: 8.5px; letter-spacing: .06em; text-transform: uppercase; padding: 0 4px 5px; border-bottom: 1px solid var(--line); font-weight: 600; }
+  .queue td { padding: 5px 4px; border-bottom: 1px solid #f2f4f7; white-space: nowrap; }
+  .queue tr:last-child td { border-bottom: none; }
+  .badge { display: inline-block; padding: 2px 6px; border-radius: 999px; font-size: 8.5px; font-weight: 700; }
+  .critical { background: var(--red-soft); color: var(--red); }
+  .high { background: #ffead5; color: var(--orange); }
+  .watch { background: var(--amber-soft); color: var(--amber); }
+  .healthy { background: var(--green-soft); color: var(--green); }
+  .status { font-size: 9px; color: #344054; }
+  .money { font-variant-numeric: tabular-nums; }
+  .pareto { display: flex; flex-direction: column; gap: 7px; margin-top: 2px; }
+  .bar-row { display: grid; grid-template-columns: 62px 1fr 52px; gap: 7px; align-items: center; font-size: 9.5px; }
+  .bar-row .name { color: #344054; font-weight: 600; }
+  .track { height: 12px; background: #f2f4f7; border-radius: 2px; overflow: hidden; }
+  .fill { height: 100%; background: var(--teal); border-radius: 2px; }
+  .bar-row .val { text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .pareto-note { margin-top: 7px; display: flex; gap: 8px; flex-wrap: wrap; }
+  .note { background: #f8fafc; border: 1px solid var(--line); border-radius: 5px; padding: 4px 7px; font-size: 8.5px; color: var(--muted); }
+  .note strong { color: var(--navy); }
+  .supplier-list { display: flex; flex-direction: column; gap: 6px; margin-top: 2px; }
+  .supplier-row { display: grid; grid-template-columns: 104px 1fr 56px; gap: 7px; align-items: center; font-size: 9.5px; }
+  .supplier-row .name { color: #344054; font-weight: 600; }
+  .supplier-row .track { height: 10px; }
+  .supplier-row .val { text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .supplier-row .fill { background: var(--amber); }
+  .rop { height: 158px; }
+  .rop-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 8px; }
+  .rop-item { border: 1px solid var(--line); border-radius: 7px; padding: 8px 10px; background: #fbfcfd; }
+  .rop-head { display: flex; justify-content: space-between; align-items: center; }
+  .rop-head .sku { font-weight: 700; font-size: 11px; color: var(--navy); }
+  .rop-head .risk { font-size: 9px; }
+  .rop-nums { display: flex; justify-content: space-between; margin-top: 6px; font-size: 9px; color: var(--muted); }
+  .rop-nums strong { color: var(--ink); font-size: 10px; }
+  .rop-track { position: relative; height: 9px; background: #eef2f6; border-radius: 2px; margin-top: 7px; overflow: hidden; }
+  .rop-pos { height: 100%; background: var(--teal); border-radius: 2px; }
+  .rop-mark { position: absolute; top: -2px; width: 2px; height: 13px; background: var(--red); }
+  .rop-gap { font-size: 8.5px; margin-top: 4px; color: var(--muted); }
+  .rop-gap strong { color: var(--red); }
+  footer { height: 18px; display: flex; justify-content: space-between; align-items: center; color: var(--muted); font-size: 8.5px; letter-spacing: .02em; }
+  footer .dot { color: var(--teal); }
+</style>
+</head>
+<body>
+<div class="dash">
+  <header>
+    <div class="brand">
+      <h1>Supply Chain Inventory Control</h1>
+      <span>Executive Overview · As of 2026-09-30</span>
+    </div>
+    <div class="filters">
+      <div class="chip">ABC <strong>All</strong></div>
+      <div class="chip">XYZ <strong>All</strong></div>
+      <div class="chip">Supplier <strong>All</strong></div>
+      <div class="chip">Service level <strong>95%</strong></div>
+      <div class="chip">Reset</div>
+    </div>
+  </header>
+
+  <div class="kpis">
+    <div class="kpi">
+      <div class="label">Inventory value</div>
+      <div class="value">$178,048</div>
+      <div class="sub">Latest on-hand at standard cost</div>
+    </div>
+    <div class="kpi warn">
+      <div class="label">Annual holding cost</div>
+      <div class="value">$49,231</div>
+      <div class="sub">52-week average inventory × rate</div>
+    </div>
+    <div class="kpi danger">
+      <div class="label">High / critical risk</div>
+      <div class="value">5</div>
+      <div class="sub">4 critical · 1 high</div>
+    </div>
+    <div class="kpi danger">
+      <div class="label">Lost-revenue exposure</div>
+      <div class="value">$30,834</div>
+      <div class="sub">Expected unmet units × price</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Forecast WAPE</div>
+      <div class="value">26.5%</div>
+      <div class="sub">3-month holdout · 60 SKUs</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Supplier on-time</div>
+      <div class="value">88.3%</div>
+      <div class="sub">Weighted by received POs</div>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="card">
+      <h2>ABC-XYZ Matrix</h2>
+      <div class="hint">SKU count by value and demand volatility · click a cell to filter the queue</div>
+      <div class="heatmap-wrap">
+        <div class="y-axis"><div>A</div><div>B</div><div>C</div></div>
+        <div class="heat-grid">
+          <div class="cell q1"><div class="count">9</div><div class="seg">AX</div><div class="share">60.1% ACV</div></div>
+          <div class="cell q2"><div class="count">7</div><div class="seg">AY</div><div class="share">17.0% ACV</div></div>
+          <div class="cell q3"><div class="count">3</div><div class="seg">AZ</div><div class="share">4.2% ACV</div></div>
+          <div class="cell q4"><div class="count">12</div><div class="seg">BX</div><div class="share">8.4% ACV</div></div>
+          <div class="cell q5"><div class="count">5</div><div class="seg">BY</div><div class="share">4.2% ACV</div></div>
+          <div class="cell q6"><div class="count">2</div><div class="seg">BZ</div><div class="share">1.5% ACV</div></div>
+          <div class="cell q7"><div class="count">5</div><div class="seg">CX</div><div class="share">1.4% ACV</div></div>
+          <div class="cell q8"><div class="count">6</div><div class="seg">CY</div><div class="share">1.2% ACV</div></div>
+          <div class="cell q9"><div class="count">11</div><div class="seg">CZ</div><div class="share">2.0% ACV</div></div>
+        </div>
+        <div class="x-axis"><div>X · stable</div><div>Y · variable</div><div>Z · erratic</div></div>
+      </div>
+    </div>
+
+    <div class="card queue">
+      <h2>Reorder Risk Queue</h2>
+      <div class="hint">High / critical first · suggested quantities are decision support</div>
+      <table>
+        <thead><tr><th>SKU</th><th>Seg</th><th>Risk</th><th>Status</th><th style="text-align:right">Exposure</th></tr></thead>
+        <tbody>
+          <tr><td><strong>SKU-0004</strong></td><td>AX</td><td><span class="badge critical">100%</span></td><td class="status">Reorder Now</td><td class="money" style="text-align:right">$26,463</td></tr>
+          <tr><td><strong>SKU-0044</strong></td><td>AY</td><td><span class="badge critical">100%</span></td><td class="status">Stocked Out</td><td class="money" style="text-align:right">$3,763</td></tr>
+          <tr><td><strong>SKU-0042</strong></td><td>BX</td><td><span class="badge critical">100%</span></td><td class="status">Stocked Out</td><td class="money" style="text-align:right">$448</td></tr>
+          <tr><td><strong>SKU-0040</strong></td><td>CX</td><td><span class="badge critical">100%</span></td><td class="status">Stocked Out</td><td class="money" style="text-align:right">$160</td></tr>
+          <tr><td><strong>SKU-0047</strong></td><td>AX</td><td><span class="badge high">41%</span></td><td class="status">Reorder Now</td><td class="money" style="text-align:right">$0</td></tr>
+          <tr><td><strong>SKU-0023</strong></td><td>AY</td><td><span class="badge watch">12%</span></td><td class="status">Watch</td><td class="money" style="text-align:right">$0</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Holding Cost Pareto</h2>
+      <div class="hint">Annualized cost of 52-week average inventory · top 8 SKUs</div>
+      <div class="pareto">
+        <div class="bar-row"><div class="name">SKU-0004</div><div class="track"><div class="fill" style="width:100%"></div></div><div class="val">$4,196</div></div>
+        <div class="bar-row"><div class="name">SKU-0008</div><div class="track"><div class="fill" style="width:87.8%"></div></div><div class="val">$3,683</div></div>
+        <div class="bar-row"><div class="name">SKU-0047</div><div class="track"><div class="fill" style="width:76.6%"></div></div><div class="val">$3,215</div></div>
+        <div class="bar-row"><div class="name">SKU-0012</div><div class="track"><div class="fill" style="width:54.7%"></div></div><div class="val">$2,295</div></div>
+        <div class="bar-row"><div class="name">SKU-0060</div><div class="track"><div class="fill" style="width:51.8%"></div></div><div class="val">$2,173</div></div>
+        <div class="bar-row"><div class="name">SKU-0003</div><div class="track"><div class="fill" style="width:46.7%"></div></div><div class="val">$1,960</div></div>
+        <div class="bar-row"><div class="name">SKU-0010</div><div class="track"><div class="fill" style="width:44.2%"></div></div><div class="val">$1,854</div></div>
+        <div class="bar-row"><div class="name">SKU-0016</div><div class="track"><div class="fill" style="width:42.4%"></div></div><div class="val">$1,778</div></div>
+      </div>
+      <div class="pareto-note">
+        <div class="note"><strong>Top 10</strong> 49.3% of cost</div>
+        <div class="note"><strong>Top 20</strong> 72.2% of cost</div>
+        <div class="note"><strong>Portfolio</strong> $49,231</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Supplier Exposure</h2>
+      <div class="hint">Lead-time variability + cycle-stock extension, at cost</div>
+      <div class="supplier-list">
+        <div class="supplier-row"><div class="name">Sierra Plastics</div><div class="track"><div class="fill" style="width:100%"></div></div><div class="val">$2,470</div></div>
+        <div class="supplier-row"><div class="name">Cascade Chemicals</div><div class="track"><div class="fill" style="width:18.6%"></div></div><div class="val">$459</div></div>
+        <div class="supplier-row"><div class="name">BlueLine Packaging</div><div class="track"><div class="fill" style="width:12.2%"></div></div><div class="val">$302</div></div>
+        <div class="supplier-row"><div class="name">Meridian Textiles</div><div class="track"><div class="fill" style="width:11.1%"></div></div><div class="val">$275</div></div>
+        <div class="supplier-row"><div class="name">Apex Optics</div><div class="track"><div class="fill" style="width:9.2%"></div></div><div class="val">$227</div></div>
+        <div class="supplier-row"><div class="name">Redwood Paper</div><div class="track"><div class="fill" style="width:8.5%"></div></div><div class="val">$209</div></div>
+      </div>
+      <div class="pareto-note" style="margin-top:10px">
+        <div class="note"><strong>88.3%</strong> weighted on-time</div>
+        <div class="note"><strong>1</strong> overdue PO</div>
+        <div class="note"><strong>19</strong> open POs</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card rop">
+    <h2>Inventory Position vs Dynamic ROP — Priority Exceptions</h2>
+    <div class="hint">Teal bar = inventory position · red marker = dynamic ROP · gap is positioning, not a purchase order</div>
+    <div class="rop-grid">
+      <div class="rop-item">
+        <div class="rop-head"><div class="sku">SKU-0004</div><div class="risk badge critical">100% critical</div></div>
+        <div class="rop-nums"><span>Position <strong>5</strong></span><span>ROP <strong>224</strong></span></div>
+        <div class="rop-track"><div class="rop-pos" style="width:2.2%"></div><div class="rop-mark" style="left:100%"></div></div>
+        <div class="rop-gap">Gap <strong>−219 units</strong> · order 476</div>
+      </div>
+      <div class="rop-item">
+        <div class="rop-head"><div class="sku">SKU-0047</div><div class="risk badge high">41% high</div></div>
+        <div class="rop-nums"><span>Position <strong>558</strong></span><span>ROP <strong>628</strong></span></div>
+        <div class="rop-track"><div class="rop-pos" style="width:88.9%"></div><div class="rop-mark" style="left:100%"></div></div>
+        <div class="rop-gap">Gap <strong>−70 units</strong> · order 389</div>
+      </div>
+      <div class="rop-item">
+        <div class="rop-head"><div class="sku">SKU-0044</div><div class="risk badge critical">100% critical</div></div>
+        <div class="rop-nums"><span>Position <strong>0</strong></span><span>ROP <strong>106</strong></span></div>
+        <div class="rop-track"><div class="rop-pos" style="width:0%"></div><div class="rop-mark" style="left:100%"></div></div>
+        <div class="rop-gap">Gap <strong>−106 units</strong> · order 413</div>
+      </div>
+      <div class="rop-item">
+        <div class="rop-head"><div class="sku">SKU-0023</div><div class="risk badge watch">12% watch</div></div>
+        <div class="rop-nums"><span>Position <strong>113</strong></span><span>ROP <strong>106</strong></span></div>
+        <div class="rop-track"><div class="rop-pos" style="width:100%"></div><div class="rop-mark" style="left:93.8%"></div></div>
+        <div class="rop-gap">Gap <strong>+7 units</strong> · monitor</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div><span class="dot">●</span> Synthetic dataset · seed 42 · 60 SKUs · 24 months · stress scenario disclosed in generation manifest</div>
+    <div>Source: outputs/tableau/*.csv · built 2026-10-25 · decision support, not automated purchasing</div>
+  </footer>
+</div>
+</body>
+</html>

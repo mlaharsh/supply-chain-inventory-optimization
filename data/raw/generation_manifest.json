@@ -1,0 +1,32 @@
+{
+  "seed": 42,
+  "start_date": "2024-10-01",
+  "end_date": "2026-09-30",
+  "days": 730,
+  "product_count": 60,
+  "supplier_count": 12,
+  "sales_transaction_count": 28470,
+  "purchase_order_count": 446,
+  "inventory_snapshot_count": 6300,
+  "open_purchase_orders_at_horizon": 19,
+  "planned_units": 91105,
+  "fulfilled_units": 90148,
+  "lost_sales_units": 957,
+  "demand_patterns": {
+    "steady": 21,
+    "intermittent": 21,
+    "seasonal": 18
+  },
+  "understocked_skus": [
+    "SKU-0003",
+    "SKU-0004",
+    "SKU-0040",
+    "SKU-0042",
+    "SKU-0044",
+    "SKU-0047",
+    "SKU-0050",
+    "SKU-0060"
+  ],
+  "end_order_freeze_days": 35,
+  "notes": "A subset of high-velocity SKUs intentionally stops replenishing near the analysis horizon to create realistic reorder/stockout exceptions."
+}

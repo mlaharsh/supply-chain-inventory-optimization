@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supply-chain-inventory-optimization"
+version = "1.0.0"
+description = "End-to-end supply chain inventory optimization, reorder forecasting, and Tableau analytics portfolio project."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "MLA Harsh" }]
+dependencies = [
+    "pandas>=2.2,<3.0",
+    "numpy>=2.0,<3.0",
+    "statsmodels>=0.14,<0.15",
+    "scipy>=1.12,<2.0",
+    "SQLAlchemy>=2.0,<2.1",
+    "psycopg2-binary>=2.9,<3.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0,<9.0"]
+
+[project.scripts]
+inventory-pipeline = "inventory_opt.pipeline:main"
+
+[tool.setuptools.packages.find]
+include = ["inventory_opt*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
