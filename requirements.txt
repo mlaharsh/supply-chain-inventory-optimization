@@ -1,4 +1,4 @@
-﻿# Core data / analytics stack
+# Core data / analytics stack
 pandas>=2.2,<3.0
 numpy>=2.0,<3.0
 statsmodels>=0.14,<0.15
