@@ -6,7 +6,7 @@ This project is a batch analytics pipeline **and** a public portfolio dashboard.
 |---|---|---|
 | Source code | GitHub | <https://github.com/mlaharsh/supply-chain-inventory-optimization> |
 | Executive dashboard preview | GitHub Pages | <https://mlaharsh.github.io/supply-chain-inventory-optimization/> |
-| Interactive dashboard | Streamlit Community Cloud | See the live link in the README after deployment |
+| Interactive dashboard | Streamlit Community Cloud | <https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/> |
 | Pipeline tests + regenerated outputs | GitHub Actions | [CI workflow](https://github.com/mlaharsh/supply-chain-inventory-optimization/actions/workflows/ci.yml) |
 | Interactive workbook | Tableau Public | Optional — workbook specification only |
 | Production-style database | Managed PostgreSQL | Optional — not live-tested in this build |
@@ -52,6 +52,8 @@ A `200` response confirms Pages is serving the landing page.
 
 ## 2. Streamlit Community Cloud
 
+**Live app:** <https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/>
+
 `app.py` is a four-page Streamlit dashboard:
 
 1. **Executive Overview** — KPIs, ABC-XYZ heatmap, action queue, supplier performance, inventory trend.
@@ -72,15 +74,17 @@ A `200` response confirms Pages is serving the landing page.
 
 Streamlit installs `requirements.txt`, so `streamlit` and `plotly` are available. The app reads the committed snapshot from `outputs/tableau/`; no database or pipeline run is needed at startup.
 
+The first sign-in requires email verification (Streamlit sends a one-time code). After that, the app deploys directly from `main` and redeploys on every push.
+
 ### Direct page links
 
 The app reads the `page` query parameter, so each page is linkable:
 
 ```text
-https://<app-name>.streamlit.app/?page=overview
-https://<app-name>.streamlit.app/?page=queue
-https://<app-name>.streamlit.app/?page=suppliers
-https://<app-name>.streamlit.app/?page=sku
+https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/?page=overview
+https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/?page=queue
+https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/?page=suppliers
+https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/?page=sku
 ```
 
 ### Local run

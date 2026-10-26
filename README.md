@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/mlaharsh/supply-chain-inventory-optimization/actions/workflows/ci.yml/badge.svg)](https://github.com/mlaharsh/supply-chain-inventory-optimization/actions/workflows/ci.yml)
 [![Live dashboard](https://img.shields.io/badge/dashboard-live-0e7c86)](https://mlaharsh.github.io/supply-chain-inventory-optimization/)
+[![Interactive app](https://img.shields.io/badge/interactive-live-2dd4bf)](https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-0b1f3a)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-0b1f3a)](LICENSE)
 
@@ -17,10 +18,11 @@ Built for a Senior Supply Chain Data Analyst / Data Engineer portfolio. Everythi
 |---|---|---|
 | **Executive dashboard** | <https://mlaharsh.github.io/supply-chain-inventory-optimization/> | Designed landing page with the 1440×900 dashboard preview, methodology, and reproduction steps |
 | **Full-size preview** | <https://mlaharsh.github.io/supply-chain-inventory-optimization/preview.html> | Responsive, scaled wrapper around the interactive HTML dashboard |
+| **Interactive dashboard** | <https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/> | Four-page Streamlit app with filters, reorder queue, supplier scorecard, SKU drilldown, and CSV downloads |
 | **CI pipeline** | <https://github.com/mlaharsh/supply-chain-inventory-optimization/actions/workflows/ci.yml> | Tests, full pipeline regeneration, output-contract checks, and downloadable build artifacts |
 | **Deployment guide** | [`docs/deployment.md`](docs/deployment.md) | GitHub Pages, Streamlit, Actions, Tableau, and PostgreSQL runbooks |
 
-The GitHub Pages dashboard is static. The Streamlit app (`app.py`) is the interactive version with filters, drilldowns, and CSV downloads; deployment instructions are in the [deployment guide](docs/deployment.md#2-streamlit-community-cloud).
+The GitHub Pages dashboard is a static showcase. The interactive version is live on Streamlit Community Cloud: [supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app](https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/). Direct page links: [overview](https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/?page=overview) · [queue](https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/?page=queue) · [suppliers](https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/?page=suppliers) · [SKU drilldown](https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/?page=sku). Deployment instructions are in the [deployment guide](docs/deployment.md#2-streamlit-community-cloud).
 
 ---
 
@@ -72,6 +74,7 @@ A 1440×900 high-fidelity mockup of the Tableau **Executive Overview** page, bui
 | If you want to… | Open |
 |---|---|
 | See the live executive dashboard | <https://mlaharsh.github.io/supply-chain-inventory-optimization/> |
+| Launch the interactive dashboard | <https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/> |
 | Run the interactive dashboard locally | `streamlit run app.py` · [setup](docs/deployment.md#2-streamlit-community-cloud) |
 | See the business story and exceptions | [`docs/sample_findings.md`](docs/sample_findings.md) |
 | Check the formulas and assumptions | [`docs/methodology.md`](docs/methodology.md) |
@@ -502,7 +505,7 @@ The public portfolio is deployed in layers:
 |---|---|---|
 | Source code | GitHub | Live |
 | Executive dashboard | GitHub Pages (`main` / `docs`) | Live — <https://mlaharsh.github.io/supply-chain-inventory-optimization/> |
-| Interactive dashboard | Streamlit Community Cloud (`app.py`) | See the [deployment guide](docs/deployment.md#2-streamlit-community-cloud) |
+| Interactive dashboard | Streamlit Community Cloud (`app.py`) | Live — <https://supply-chain-inventory-optimization-2o6rasyypmbxh3tpxtpxni.streamlit.app/> |
 | Tests + regenerated artifacts | GitHub Actions | [CI workflow](https://github.com/mlaharsh/supply-chain-inventory-optimization/actions/workflows/ci.yml) |
 | Workbook | Tableau Public | Optional — specification included, no workbook published |
 | Database | Managed PostgreSQL | Optional — SQL included, not live-tested |
