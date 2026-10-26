@@ -22,6 +22,19 @@ outputs/**/*.md
 !data/raw/.gitkeep
 !outputs/.gitkeep
 
+# Dashboard snapshot committed for the public Streamlit demo.
+# These are the only generated CSVs tracked in Git; everything else is reproducible.
+!outputs/tableau/inventory_overview.csv
+!outputs/tableau/abc_xyz_summary.csv
+!outputs/tableau/reorder_alerts.csv
+!outputs/tableau/supplier_performance.csv
+!outputs/tableau/purchase_order_lead_times.csv
+!outputs/tableau/inventory_snapshots.csv
+!outputs/tableau/weekly_demand.csv
+!outputs/tableau/monthly_demand_forecast.csv
+!outputs/tableau/forecast_accuracy.csv
+!outputs/tableau/demand_forecast.csv
+
 # Local tooling
 .DS_Store
 .vscode/

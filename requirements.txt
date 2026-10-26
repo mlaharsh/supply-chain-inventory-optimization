@@ -1,4 +1,4 @@
-# Core data / analytics stack
+﻿# Core data / analytics stack
 pandas>=2.2,<3.0
 numpy>=2.0,<3.0
 statsmodels>=0.14,<0.15
@@ -7,6 +7,10 @@ scipy>=1.12,<2.0
 # PostgreSQL deployment path
 SQLAlchemy>=2.0,<2.1
 psycopg2-binary>=2.9,<3.0
+
+# Interactive dashboard (Streamlit Community Cloud)
+streamlit>=1.50,<2.0
+plotly>=5.24,<7.0
 
 # Development / validation
 pytest>=8.0,<9.0

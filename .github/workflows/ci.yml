@@ -1,0 +1,104 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test-and-regenerate:
+    name: Test and regenerate pipeline
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            pyproject.toml
+
+      - name: Install package and test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+
+      - name: Validate dashboard entry point
+        run: python -m py_compile app.py
+
+      - name: Run test suite
+        run: python -m pytest
+
+      - name: Regenerate synthetic data and analytics
+        run: python -m inventory_opt.pipeline --regenerate
+
+      - name: Verify pipeline outputs
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          import pandas as pd
+
+          outputs = Path("outputs")
+          required = [
+              outputs / "run_summary.json",
+              outputs / "data_quality_report.json",
+              outputs / "executive_summary.md",
+              outputs / "tableau" / "inventory_overview.csv",
+              outputs / "tableau" / "abc_xyz_summary.csv",
+              outputs / "tableau" / "reorder_alerts.csv",
+              outputs / "tableau" / "supplier_performance.csv",
+              outputs / "tableau" / "purchase_order_lead_times.csv",
+              outputs / "tableau" / "inventory_snapshots.csv",
+              outputs / "tableau" / "weekly_demand.csv",
+              outputs / "tableau" / "monthly_demand_forecast.csv",
+              outputs / "tableau" / "forecast_accuracy.csv",
+              outputs / "tableau" / "demand_forecast.csv",
+          ]
+          missing = [str(path) for path in required if not path.exists()]
+          if missing:
+              raise SystemExit(f"Missing pipeline outputs: {missing}")
+
+          overview = pd.read_csv(outputs / "tableau" / "inventory_overview.csv")
+          alerts = pd.read_csv(outputs / "tableau" / "reorder_alerts.csv")
+          summary = json.loads((outputs / "run_summary.json").read_text())
+
+          assert len(overview) == 60, f"Expected 60 SKUs, found {len(overview)}"
+          assert len(alerts) > 0, "Recovery queue is unexpectedly empty"
+          assert summary["kpis"]["total_skus"] == 60
+          assert summary["validation"]["current_stock_matches_latest_snapshot"] is True
+          assert overview["sku"].is_unique
+          assert overview["stockout_probability"].between(0, 1).all()
+          assert (overview["current_stock_units"] >= 0).all()
+
+          print(f"Verified {len(overview)} SKUs, {len(alerts)} reorder alerts")
+          print(f"As of {summary['as_of_date']} · seed {summary['seed']}")
+          PY
+
+      - name: Upload pipeline outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-outputs-${{ github.run_number }}
+          path: |
+            outputs/analytics/*.csv
+            outputs/tableau/*.csv
+            outputs/run_summary.json
+            outputs/data_quality_report.json
+            outputs/executive_summary.md
+          if-no-files-found: error
+          retention-days: 30

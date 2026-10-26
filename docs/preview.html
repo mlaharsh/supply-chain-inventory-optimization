@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Executive Overview — Inventory Control</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1f3a'/%3E%3Cpath d='M18 40V24l14-8 14 8v16l-14 8z' fill='none' stroke='%232dd4bf' stroke-width='4' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+  :root { --navy: #0b1f3a; --teal: #2dd4bf; --muted: #9db7d0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: #071729;
+    color: #eaf1f8;
+    font-family: "Segoe UI", Inter, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  .bar {
+    height: 54px; display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    padding: 0 18px; background: rgba(11, 31, 58, .96);
+    border-bottom: 1px solid rgba(255, 255, 255, .09);
+    position: sticky; top: 0; z-index: 5;
+  }
+  .bar a {
+    color: #cfe0ef; text-decoration: none; font-size: 12px; font-weight: 650;
+    display: inline-flex; align-items: center; gap: 7px; white-space: nowrap;
+  }
+  .bar a:hover { color: var(--teal); }
+  .bar .title { display: flex; align-items: baseline; gap: 10px; min-width: 0; }
+  .bar .title strong { font-size: 12.5px; letter-spacing: .01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bar .title span { color: #6f93b3; font-size: 9.5px; letter-spacing: .09em; text-transform: uppercase; white-space: nowrap; }
+  .bar .full { border: 1px solid rgba(255, 255, 255, .18); padding: 7px 11px; border-radius: 7px; }
+  .bar .full:hover { background: rgba(45, 212, 191, .1); border-color: rgba(45, 212, 191, .45); }
+  .viewport {
+    min-height: calc(100vh - 54px); padding: 16px;
+    display: flex; align-items: flex-start; justify-content: center;
+    overflow: auto;
+  }
+  .stage {
+    position: relative; flex: none; transform-origin: top left;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, .5); border-radius: 10px; overflow: hidden;
+    background: #f3f5f8;
+  }
+  iframe { display: block; border: 0; transform-origin: top left; background: #f3f5f8; }
+  .hint {
+    position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%);
+    background: rgba(11, 31, 58, .9); border: 1px solid rgba(255, 255, 255, .12);
+    color: #9db7d0; font-size: 10px; padding: 6px 11px; border-radius: 999px;
+    backdrop-filter: blur(8px); pointer-events: none; white-space: nowrap;
+  }
+  @media (max-width: 700px) {
+    .bar { padding: 0 12px; gap: 8px; }
+    .bar .title span { display: none; }
+    .bar .full { padding: 6px 9px; }
+    .viewport { padding: 8px; }
+    .hint { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="bar">
+  <a href="index.html">← Overview</a>
+  <div class="title"><strong>Executive Overview</strong><span>1440 × 900 preview</span></div>
+  <a class="full" href="dashboard_preview.html" target="_blank" rel="noopener">Full size ↗</a>
+</div>
+<div class="viewport">
+  <div class="stage" id="stage">
+    <iframe id="frame" src="dashboard_preview.html" width="1440" height="900" scrolling="no" title="Supply chain executive dashboard preview"></iframe>
+  </div>
+</div>
+<p class="hint">Preview scaled to fit. Open full size for detail.</p>
+<script>
+  (function () {
+    var stage = document.getElementById('stage');
+    var frame = document.getElementById('frame');
+    var viewport = document.querySelector('.viewport');
+    var W = 1440, H = 900;
+
+    function fit() {
+      var availW = viewport.clientWidth - 32;
+      var availH = viewport.clientHeight - 32;
+      if (availW <= 0 || availH <= 0) return;
+      var scale = Math.min(availW / W, availH / H, 1);
+      scale = Math.max(scale, 0.2);
+      frame.style.transform = 'scale(' + scale + ')';
+      stage.style.width = Math.round(W * scale) + 'px';
+      stage.style.height = Math.round(H * scale) + 'px';
+    }
+
+    window.addEventListener('resize', fit);
+    frame.addEventListener('load', fit);
+    fit();
+    setTimeout(fit, 250);
+  }());
+</script>
+</body>
+</html>

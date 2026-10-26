@@ -1,8 +1,26 @@
 # Supply Chain Inventory Optimization & Reorder Forecasting
 
+[![CI](https://github.com/mlaharsh/supply-chain-inventory-optimization/actions/workflows/ci.yml/badge.svg)](https://github.com/mlaharsh/supply-chain-inventory-optimization/actions/workflows/ci.yml)
+[![Live dashboard](https://img.shields.io/badge/dashboard-live-0e7c86)](https://mlaharsh.github.io/supply-chain-inventory-optimization/)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-0b1f3a)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-0b1f3a)](LICENSE)
+
 An end-to-end supply-chain analytics portfolio project: synthetic operating history → PostgreSQL model → ABC-XYZ segmentation → EOQ / safety-stock / reorder policy → demand forecasting → probabilistic stockout risk → Tableau executive dashboard.
 
 Built for a Senior Supply Chain Data Analyst / Data Engineer portfolio. Everything is reproducible from a deterministic seed and runs locally without a database, while the PostgreSQL + Tableau deployment path is included.
+
+---
+
+## Live demo
+
+| Artifact | Link | What it shows |
+|---|---|---|
+| **Executive dashboard** | <https://mlaharsh.github.io/supply-chain-inventory-optimization/> | Designed landing page with the 1440×900 dashboard preview, methodology, and reproduction steps |
+| **Full-size preview** | <https://mlaharsh.github.io/supply-chain-inventory-optimization/preview.html> | Responsive, scaled wrapper around the interactive HTML dashboard |
+| **CI pipeline** | <https://github.com/mlaharsh/supply-chain-inventory-optimization/actions/workflows/ci.yml> | Tests, full pipeline regeneration, output-contract checks, and downloadable build artifacts |
+| **Deployment guide** | [`docs/deployment.md`](docs/deployment.md) | GitHub Pages, Streamlit, Actions, Tableau, and PostgreSQL runbooks |
+
+The GitHub Pages dashboard is static. The Streamlit app (`app.py`) is the interactive version with filters, drilldowns, and CSV downloads; deployment instructions are in the [deployment guide](docs/deployment.md#2-streamlit-community-cloud).
 
 ---
 
@@ -53,11 +71,14 @@ A 1440×900 high-fidelity mockup of the Tableau **Executive Overview** page, bui
 
 | If you want to… | Open |
 |---|---|
+| See the live executive dashboard | <https://mlaharsh.github.io/supply-chain-inventory-optimization/> |
+| Run the interactive dashboard locally | `streamlit run app.py` · [setup](docs/deployment.md#2-streamlit-community-cloud) |
 | See the business story and exceptions | [`docs/sample_findings.md`](docs/sample_findings.md) |
 | Check the formulas and assumptions | [`docs/methodology.md`](docs/methodology.md) |
 | Understand the schema and fields | [`docs/data_dictionary.md`](docs/data_dictionary.md) |
 | Build or present the dashboard | [`docs/tableau_dashboard_spec.md`](docs/tableau_dashboard_spec.md), [`docs/portfolio_playbook.md`](docs/portfolio_playbook.md) |
 | Reproduce the run | [Quickstart](#5-quickstart) |
+| Deploy the portfolio | [`docs/deployment.md`](docs/deployment.md) |
 
 ## 3. Architecture
 
@@ -377,7 +398,7 @@ This compares the lead-time-variable safety stock with a constant-promised-lead-
 
 ## 9. Tableau dashboard
 
-The executive layout is previewed above; the complete build specification is here: [`docs/tableau_dashboard_spec.md`](docs/tableau_dashboard_spec.md).
+The executive layout is previewed above and published on GitHub Pages: [landing page](https://mlaharsh.github.io/supply-chain-inventory-optimization/) · [full-size preview](https://mlaharsh.github.io/supply-chain-inventory-optimization/preview.html). The complete build specification is here: [`docs/tableau_dashboard_spec.md`](docs/tableau_dashboard_spec.md).
 
 Data sources in `outputs/tableau/`:
 
@@ -472,6 +493,21 @@ Documented in full in [`docs/methodology.md`](docs/methodology.md):
 - How to prioritize limited planner attention using risk × value.
 
 See [`docs/portfolio_playbook.md`](docs/portfolio_playbook.md) for a five-minute demo script, ten-minute technical walkthrough, screenshot checklist, résumé bullets, interview prompts, and a production roadmap.
+
+## 14. Deployment
+
+The public portfolio is deployed in layers:
+
+| Layer | Host | Status |
+|---|---|---|
+| Source code | GitHub | Live |
+| Executive dashboard | GitHub Pages (`main` / `docs`) | Live — <https://mlaharsh.github.io/supply-chain-inventory-optimization/> |
+| Interactive dashboard | Streamlit Community Cloud (`app.py`) | See the [deployment guide](docs/deployment.md#2-streamlit-community-cloud) |
+| Tests + regenerated artifacts | GitHub Actions | [CI workflow](https://github.com/mlaharsh/supply-chain-inventory-optimization/actions/workflows/ci.yml) |
+| Workbook | Tableau Public | Optional — specification included, no workbook published |
+| Database | Managed PostgreSQL | Optional — SQL included, not live-tested |
+
+The dashboard snapshot in `outputs/tableau/` (10 CSVs, about 2 MB) is committed so the Streamlit app has data without running the pipeline at startup. All other generated files remain ignored and reproducible. Full runbooks, including Pages setup, Streamlit deployment, artifact retention, Tableau Public, and managed PostgreSQL, are in [`docs/deployment.md`](docs/deployment.md).
 
 ## License
 

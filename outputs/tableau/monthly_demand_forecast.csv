@@ -1,0 +1,1621 @@
+product_id,month_start,actual_units,forecast_units,lower_95_units,upper_95_units,record_type,forecast_month,demand_pattern,model,sku,product_name,category,abc_class,xyz_class,abc_xyz_segment,supplier_name
+1,2024-10-01,17.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2024-11-01,7.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2024-12-01,27.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2025-01-01,22.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2025-02-01,16.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2025-03-01,19.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2025-04-01,27.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2025-05-01,17.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2025-06-01,14.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2025-07-01,17.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2025-08-01,15.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2025-09-01,17.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2025-10-01,21.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2025-11-01,17.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2025-12-01,32.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2026-01-01,19.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2026-02-01,20.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2026-03-01,16.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2026-04-01,10.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2026-05-01,14.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2026-06-01,11.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2026-07-01,16.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2026-08-01,12.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2026-09-01,15.0,,,,Actual,,steady,,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2026-10-01,,17.42,6.7,28.14,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2026-11-01,,17.42,2.26,32.58,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+1,2026-12-01,,17.42,0.0,35.98,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0001,Industrial Pallet Wrap 101,Packaging,C,Y,CY,Cascade Chemicals
+2,2024-10-01,136.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2024-11-01,84.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2024-12-01,82.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2025-01-01,51.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2025-02-01,27.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2025-03-01,18.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2025-04-01,26.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2025-05-01,35.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2025-06-01,60.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2025-07-01,92.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2025-08-01,115.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2025-09-01,112.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2025-10-01,111.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2025-11-01,100.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2025-12-01,87.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2026-01-01,51.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2026-02-01,43.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2026-03-01,18.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2026-04-01,23.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2026-05-01,40.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2026-06-01,70.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2026-07-01,84.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2026-08-01,125.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2026-09-01,134.0,,,,Actual,,seasonal,,SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2026-10-01,,129.35,117.48,141.22,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2026-11-01,,97.82,81.03,114.6,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+2,2026-12-01,,90.29,69.73,110.84,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0002,Eco Power Relay 102,Electronics,B,Y,BY,Sierra Plastics
+3,2024-10-01,250.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2024-11-01,360.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2024-12-01,500.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2025-01-01,595.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2025-02-01,393.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2025-03-01,583.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2025-04-01,351.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2025-05-01,342.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2025-06-01,263.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2025-07-01,211.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2025-08-01,176.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2025-09-01,204.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2025-10-01,290.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2025-11-01,339.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2025-12-01,516.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2026-01-01,512.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2026-02-01,508.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2026-03-01,482.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2026-04-01,465.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2026-05-01,402.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2026-06-01,268.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2026-07-01,224.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2026-08-01,183.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2026-09-01,241.0,,,,Actual,,seasonal,,SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2026-10-01,,294.63,232.99,356.27,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2026-11-01,,374.03,286.85,461.2,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+3,2026-12-01,,532.44,425.68,639.21,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0003,Premium Adhesive Tape 103,Consumables,A,X,AX,Cascade Chemicals
+4,2024-10-01,256.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2024-11-01,252.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2024-12-01,240.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2025-01-01,239.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2025-02-01,215.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2025-03-01,241.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2025-04-01,270.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2025-05-01,235.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2025-06-01,270.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2025-07-01,265.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2025-08-01,246.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2025-09-01,241.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2025-10-01,226.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2025-11-01,222.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2025-12-01,261.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2026-01-01,238.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2026-02-01,163.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2026-03-01,248.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2026-04-01,246.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2026-05-01,285.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2026-06-01,285.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2026-07-01,292.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2026-08-01,231.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2026-09-01,283.0,,,,Actual,,steady,,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2026-10-01,,247.92,194.71,301.13,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2026-11-01,,247.92,172.67,323.16,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+4,2026-12-01,,247.92,155.76,340.08,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0004,Precision Signal Cable 104,Electronics,A,X,AX,Sierra Plastics
+5,2024-10-01,64.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2024-11-01,45.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2024-12-01,40.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2025-01-01,33.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2025-02-01,30.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2025-03-01,55.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2025-04-01,62.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2025-05-01,74.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2025-06-01,88.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2025-07-01,84.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2025-08-01,87.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2025-09-01,76.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2025-10-01,52.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2025-11-01,44.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2025-12-01,56.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2026-01-01,30.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2026-02-01,41.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2026-03-01,58.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2026-04-01,67.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2026-05-01,83.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2026-06-01,109.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2026-07-01,81.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2026-08-01,92.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2026-09-01,76.0,,,,Actual,,seasonal,,SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2026-10-01,,64.24,55.72,72.77,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2026-11-01,,50.71,38.66,62.77,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+5,2026-12-01,,54.18,39.42,68.94,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0005,High-Temp Corrugated Carton 105,Packaging,B,X,BX,Cascade Chemicals
+6,2024-10-01,23.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2024-11-01,44.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2024-12-01,19.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2025-01-01,53.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2025-02-01,13.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2025-03-01,39.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2025-04-01,14.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2025-05-01,11.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2025-06-01,16.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2025-07-01,30.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2025-08-01,65.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2025-09-01,47.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2025-10-01,67.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2025-11-01,0.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2025-12-01,16.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2026-01-01,34.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2026-02-01,12.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2026-03-01,30.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2026-04-01,26.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2026-05-01,31.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2026-06-01,27.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2026-07-01,35.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2026-08-01,11.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2026-09-01,40.0,,,,Actual,,intermittent,,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2026-10-01,,29.29,0.0,62.52,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2026-11-01,,29.29,0.0,76.28,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+6,2026-12-01,,29.29,0.0,86.84,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0006,Standard Pallet Wrap 106,Packaging,C,Z,CZ,Cascade Chemicals
+7,2024-10-01,16.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2024-11-01,8.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2024-12-01,39.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2025-01-01,47.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2025-02-01,0.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2025-03-01,0.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2025-04-01,52.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2025-05-01,36.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2025-06-01,44.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2025-07-01,11.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2025-08-01,79.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2025-09-01,4.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2025-10-01,13.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2025-11-01,23.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2025-12-01,27.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2026-01-01,18.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2026-02-01,42.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2026-03-01,15.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2026-04-01,30.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2026-05-01,80.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2026-06-01,39.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2026-07-01,0.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2026-08-01,30.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2026-09-01,43.0,,,,Actual,,intermittent,,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2026-10-01,,29.0,0.0,71.88,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2026-11-01,,29.0,0.0,89.65,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+7,2026-12-01,,29.0,0.0,103.28,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0007,Heavy-Duty Foam Insert 107,Packaging,C,Z,CZ,Sierra Plastics
+8,2024-10-01,117.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2024-11-01,115.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2024-12-01,140.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2025-01-01,97.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2025-02-01,123.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2025-03-01,104.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2025-04-01,144.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2025-05-01,108.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2025-06-01,140.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2025-07-01,130.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2025-08-01,97.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2025-09-01,106.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2025-10-01,117.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2025-11-01,105.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2025-12-01,92.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2026-01-01,110.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2026-02-01,108.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2026-03-01,123.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2026-04-01,104.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2026-05-01,145.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2026-06-01,117.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2026-07-01,131.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2026-08-01,108.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2026-09-01,110.0,,,,Actual,,steady,,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2026-10-01,,116.29,86.98,145.61,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2026-11-01,,116.29,74.83,157.75,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+8,2026-12-01,,116.29,65.52,167.07,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0008,Modular Ear Protection 108,Safety Equipment,A,X,AX,Harbor Safety
+9,2024-10-01,61.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2024-11-01,60.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2024-12-01,56.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2025-01-01,45.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2025-02-01,33.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2025-03-01,35.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2025-04-01,26.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2025-05-01,17.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2025-06-01,16.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2025-07-01,17.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2025-08-01,31.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2025-09-01,33.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2025-10-01,44.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2025-11-01,46.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2025-12-01,46.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2026-01-01,61.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2026-02-01,50.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2026-03-01,36.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2026-04-01,35.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2026-05-01,17.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2026-06-01,18.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2026-07-01,17.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2026-08-01,32.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2026-09-01,46.0,,,,Actual,,seasonal,,SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2026-10-01,,51.47,42.04,60.89,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2026-11-01,,53.88,40.55,67.21,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+9,2026-12-01,,53.3,36.98,69.62,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0009,Reinforced Threaded Rod 109,Hardware,A,Y,AY,Atlas Fasteners
+10,2024-10-01,126.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2024-11-01,111.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2024-12-01,99.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2025-01-01,86.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2025-02-01,50.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2025-03-01,54.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2025-04-01,30.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2025-05-01,18.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2025-06-01,41.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2025-07-01,63.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2025-08-01,90.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2025-09-01,120.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2025-10-01,131.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2025-11-01,113.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2025-12-01,129.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2026-01-01,103.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2026-02-01,67.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2026-03-01,37.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2026-04-01,21.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2026-05-01,28.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2026-06-01,44.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2026-07-01,62.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2026-08-01,114.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2026-09-01,119.0,,,,Actual,,seasonal,,SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2026-10-01,,137.18,124.62,149.74,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2026-11-01,,119.83,102.07,137.6,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+10,2026-12-01,,121.07,99.31,142.82,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0010,Compact Nitrile Gloves 110,Consumables,A,Y,AY,Harbor Safety
+11,2024-10-01,52.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2024-11-01,61.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2024-12-01,46.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2025-01-01,71.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2025-02-01,31.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2025-03-01,11.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2025-04-01,57.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2025-05-01,39.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2025-06-01,50.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2025-07-01,86.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2025-08-01,51.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2025-09-01,8.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2025-10-01,54.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2025-11-01,12.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2025-12-01,13.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2026-01-01,48.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2026-02-01,54.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2026-03-01,18.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2026-04-01,39.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2026-05-01,72.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2026-06-01,67.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2026-07-01,14.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2026-08-01,28.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2026-09-01,42.0,,,,Actual,,intermittent,,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2026-10-01,,42.67,0.68,84.66,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2026-11-01,,42.67,0.0,102.05,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+11,2026-12-01,,42.67,0.0,115.39,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0011,Industrial Pneumatic Valve 111,Industrial Components,A,Z,AZ,Northwind Components
+12,2024-10-01,92.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2024-11-01,61.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2024-12-01,56.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2025-01-01,51.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2025-02-01,86.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2025-03-01,92.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2025-04-01,95.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2025-05-01,134.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2025-06-01,128.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2025-07-01,154.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2025-08-01,87.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2025-09-01,96.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2025-10-01,85.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2025-11-01,87.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2025-12-01,67.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2026-01-01,63.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2026-02-01,72.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2026-03-01,109.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2026-04-01,138.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2026-05-01,123.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2026-06-01,160.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2026-07-01,110.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2026-08-01,137.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2026-09-01,108.0,,,,Actual,,seasonal,,SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2026-10-01,,104.32,79.41,129.22,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2026-11-01,,89.41,54.19,124.63,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+12,2026-12-01,,76.58,33.45,119.72,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0012,Eco Hard Hat 112,Safety Equipment,A,X,AX,Orion Metals
+13,2024-10-01,63.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2024-11-01,18.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2024-12-01,24.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2025-01-01,40.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2025-02-01,39.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2025-03-01,29.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2025-04-01,74.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2025-05-01,46.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2025-06-01,24.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2025-07-01,33.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2025-08-01,64.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2025-09-01,32.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2025-10-01,71.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2025-11-01,71.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2025-12-01,73.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2026-01-01,76.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2026-02-01,13.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2026-03-01,20.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2026-04-01,40.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2026-05-01,131.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2026-06-01,52.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2026-07-01,28.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2026-08-01,77.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2026-09-01,37.0,,,,Actual,,intermittent,,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2026-10-01,,48.96,0.0,101.1,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2026-11-01,,48.96,0.0,122.7,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+13,2026-12-01,,48.96,0.0,139.27,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0013,Premium Adhesive Tape 113,Consumables,C,Z,CZ,Vertex Electronics
+14,2024-10-01,49.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2024-11-01,35.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2024-12-01,57.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2025-01-01,44.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2025-02-01,41.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2025-03-01,56.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2025-04-01,38.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2025-05-01,57.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2025-06-01,39.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2025-07-01,35.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2025-08-01,44.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2025-09-01,41.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2025-10-01,39.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2025-11-01,37.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2025-12-01,44.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2026-01-01,47.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2026-02-01,39.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2026-03-01,34.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2026-04-01,52.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2026-05-01,50.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2026-06-01,41.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2026-07-01,40.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2026-08-01,37.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2026-09-01,42.0,,,,Actual,,steady,,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2026-10-01,,43.25,29.86,56.64,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2026-11-01,,43.25,24.31,62.19,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+14,2026-12-01,,43.25,20.05,66.45,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0014,Precision Threaded Rod 114,Hardware,B,X,BX,Orion Metals
+15,2024-10-01,15.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2024-11-01,18.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2024-12-01,34.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2025-01-01,0.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2025-02-01,29.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2025-03-01,18.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2025-04-01,0.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2025-05-01,20.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2025-06-01,35.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2025-07-01,12.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2025-08-01,3.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2025-09-01,3.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2025-10-01,0.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2025-11-01,28.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2025-12-01,0.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2026-01-01,0.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2026-02-01,16.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2026-03-01,35.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2026-04-01,9.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2026-05-01,13.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2026-06-01,12.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2026-07-01,65.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2026-08-01,44.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2026-09-01,70.0,,,,Actual,,intermittent,,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2026-10-01,,50.87,15.26,86.48,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2026-11-01,,50.87,0.51,101.23,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+15,2026-12-01,,50.87,0.0,112.55,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0015,High-Temp Hydraulic Hose 115,Industrial Components,C,Z,CZ,BlueLine Packaging
+16,2024-10-01,39.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2024-11-01,77.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2024-12-01,62.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2025-01-01,51.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2025-02-01,59.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2025-03-01,52.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2025-04-01,49.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2025-05-01,67.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2025-06-01,47.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2025-07-01,52.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2025-08-01,40.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2025-09-01,53.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2025-10-01,46.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2025-11-01,43.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2025-12-01,70.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2026-01-01,56.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2026-02-01,42.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2026-03-01,56.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2026-04-01,39.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2026-05-01,52.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2026-06-01,54.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2026-07-01,61.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2026-08-01,60.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2026-09-01,50.0,,,,Actual,,steady,,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2026-10-01,,53.21,34.41,72.01,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2026-11-01,,53.21,26.62,79.79,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+16,2026-12-01,,53.21,20.65,85.77,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0016,Standard Controller Board 116,Electronics,A,X,AX,Cascade Chemicals
+17,2024-10-01,74.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2024-11-01,11.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2024-12-01,4.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2025-01-01,22.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2025-02-01,21.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2025-03-01,8.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2025-04-01,36.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2025-05-01,41.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2025-06-01,19.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2025-07-01,4.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2025-08-01,13.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2025-09-01,31.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2025-10-01,29.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2025-11-01,8.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2025-12-01,35.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2026-01-01,44.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2026-02-01,10.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2026-03-01,3.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2026-04-01,33.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2026-05-01,34.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2026-06-01,14.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2026-07-01,17.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2026-08-01,33.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2026-09-01,17.0,,,,Actual,,intermittent,,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2026-10-01,,23.38,0.0,55.02,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2026-11-01,,23.38,0.0,68.12,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+17,2026-12-01,,23.38,0.0,78.18,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0017,Heavy-Duty Lock Washer 117,Hardware,A,Z,AZ,Sierra Plastics
+18,2024-10-01,11.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2024-11-01,18.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2024-12-01,26.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2025-01-01,33.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2025-02-01,19.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2025-03-01,26.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2025-04-01,16.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2025-05-01,12.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2025-06-01,22.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2025-07-01,25.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2025-08-01,16.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2025-09-01,11.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2025-10-01,30.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2025-11-01,19.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2025-12-01,23.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2026-01-01,21.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2026-02-01,23.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2026-03-01,29.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2026-04-01,24.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2026-05-01,17.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2026-06-01,16.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2026-07-01,20.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2026-08-01,22.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2026-09-01,8.0,,,,Actual,,steady,,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2026-10-01,,20.29,8.15,32.43,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2026-11-01,,20.29,3.12,37.46,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+18,2026-12-01,,20.29,0.0,41.32,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0018,Modular Steel Bracket 118,Hardware,C,X,CX,Summit Industrial
+19,2024-10-01,20.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2024-11-01,4.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2024-12-01,17.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2025-01-01,26.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2025-02-01,9.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2025-03-01,35.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2025-04-01,11.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2025-05-01,10.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2025-06-01,17.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2025-07-01,15.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2025-08-01,28.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2025-09-01,13.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2025-10-01,19.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2025-11-01,15.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2025-12-01,11.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2026-01-01,28.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2026-02-01,12.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2026-03-01,29.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2026-04-01,34.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2026-05-01,16.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2026-06-01,22.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2026-07-01,18.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2026-08-01,23.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2026-09-01,18.0,,,,Actual,,intermittent,,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2026-10-01,,18.75,3.33,34.17,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2026-11-01,,18.75,0.0,40.56,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+19,2026-12-01,,18.75,0.0,45.47,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0019,Reinforced Cleaning Solvent 119,Consumables,C,Y,CY,Sierra Plastics
+20,2024-10-01,10.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2024-11-01,20.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2024-12-01,16.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2025-01-01,40.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2025-02-01,14.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2025-03-01,7.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2025-04-01,15.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2025-05-01,54.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2025-06-01,12.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2025-07-01,17.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2025-08-01,12.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2025-09-01,11.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2025-10-01,21.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2025-11-01,14.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2025-12-01,29.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2026-01-01,13.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2026-02-01,20.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2026-03-01,13.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2026-04-01,14.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2026-05-01,11.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2026-06-01,17.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2026-07-01,25.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2026-08-01,19.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2026-09-01,18.0,,,,Actual,,intermittent,,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2026-10-01,,18.42,0.0,38.15,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2026-11-01,,18.42,0.0,46.32,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+20,2026-12-01,,18.42,0.0,52.59,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0020,Compact Corrugated Carton 120,Packaging,B,Z,BZ,Orion Metals
+21,2024-10-01,13.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2024-11-01,15.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2024-12-01,10.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2025-01-01,14.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2025-02-01,12.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2025-03-01,13.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2025-04-01,5.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2025-05-01,6.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2025-06-01,13.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2025-07-01,18.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2025-08-01,15.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2025-09-01,17.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2025-10-01,19.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2025-11-01,15.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2025-12-01,12.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2026-01-01,16.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2026-02-01,12.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2026-03-01,14.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2026-04-01,13.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2026-05-01,10.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2026-06-01,18.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2026-07-01,13.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2026-08-01,14.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2026-09-01,26.0,,,,Actual,,steady,,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2026-10-01,,13.88,5.77,21.98,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2026-11-01,,13.88,2.41,25.34,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+21,2026-12-01,,13.88,0.0,27.92,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0021,Industrial Flange Bearing 121,Hardware,C,X,CX,Cascade Chemicals
+22,2024-10-01,223.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2024-11-01,243.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2024-12-01,230.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2025-01-01,211.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2025-02-01,201.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2025-03-01,179.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2025-04-01,195.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2025-05-01,219.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2025-06-01,178.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2025-07-01,191.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2025-08-01,223.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2025-09-01,191.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2025-10-01,229.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2025-11-01,195.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2025-12-01,204.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2026-01-01,193.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2026-02-01,169.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2026-03-01,194.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2026-04-01,196.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2026-05-01,227.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2026-06-01,190.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2026-07-01,192.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2026-08-01,205.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2026-09-01,218.0,,,,Actual,,steady,,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2026-10-01,,204.0,167.76,240.24,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2026-11-01,,204.0,152.75,255.25,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+22,2026-12-01,,204.0,141.24,266.76,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0022,Eco Power Relay 122,Electronics,A,X,AX,Harbor Safety
+23,2024-10-01,35.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2024-11-01,3.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2024-12-01,81.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2025-01-01,30.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2025-02-01,23.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2025-03-01,27.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2025-04-01,34.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2025-05-01,9.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2025-06-01,47.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2025-07-01,52.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2025-08-01,36.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2025-09-01,102.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2025-10-01,30.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2025-11-01,50.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2025-12-01,58.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2026-01-01,49.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2026-02-01,23.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2026-03-01,60.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2026-04-01,51.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2026-05-01,34.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2026-06-01,71.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2026-07-01,65.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2026-08-01,111.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2026-09-01,27.0,,,,Actual,,intermittent,,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2026-10-01,,46.17,0.0,96.8,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2026-11-01,,46.17,0.0,117.77,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+23,2026-12-01,,46.17,0.0,133.87,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0023,Premium Shipping Label Roll 123,Packaging,A,Y,AY,Orion Metals
+24,2024-10-01,23.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2024-11-01,23.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2024-12-01,21.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2025-01-01,21.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2025-02-01,15.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2025-03-01,21.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2025-04-01,11.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2025-05-01,7.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2025-06-01,13.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2025-07-01,10.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2025-08-01,17.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2025-09-01,16.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2025-10-01,22.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2025-11-01,14.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2025-12-01,24.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2026-01-01,28.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2026-02-01,27.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2026-03-01,25.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2026-04-01,20.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2026-05-01,14.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2026-06-01,13.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2026-07-01,18.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2026-08-01,8.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2026-09-01,11.0,,,,Actual,,seasonal,,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2026-10-01,,10.91,0.91,20.91,Forecast,2026-10-01,seasonal,Simple exponential smoothing,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2026-11-01,,10.91,0.0,25.05,Forecast,2026-11-01,seasonal,Simple exponential smoothing,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+24,2026-12-01,,10.91,0.0,28.23,Forecast,2026-12-01,seasonal,Simple exponential smoothing,SKU-0024,Precision First Aid Kit 124,Safety Equipment,A,Y,AY,BlueLine Packaging
+25,2024-10-01,63.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2024-11-01,45.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2024-12-01,48.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2025-01-01,35.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2025-02-01,32.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2025-03-01,37.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2025-04-01,41.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2025-05-01,51.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2025-06-01,50.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2025-07-01,62.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2025-08-01,51.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2025-09-01,55.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2025-10-01,63.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2025-11-01,59.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2025-12-01,62.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2026-01-01,45.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2026-02-01,39.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2026-03-01,44.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2026-04-01,38.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2026-05-01,55.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2026-06-01,54.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2026-07-01,68.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2026-08-01,62.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2026-09-01,60.0,,,,Actual,,steady,,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2026-10-01,,60.44,43.17,77.71,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2026-11-01,,60.44,36.02,84.87,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+25,2026-12-01,,60.44,30.53,90.36,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0025,High-Temp Wireless Sensor 125,Electronics,B,X,BX,Apex Optics
+26,2024-10-01,24.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2024-11-01,29.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2024-12-01,24.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2025-01-01,27.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2025-02-01,38.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2025-03-01,28.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2025-04-01,31.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2025-05-01,36.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2025-06-01,26.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2025-07-01,32.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2025-08-01,24.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2025-09-01,23.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2025-10-01,27.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2025-11-01,26.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2025-12-01,26.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2026-01-01,37.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2026-02-01,28.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2026-03-01,39.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2026-04-01,38.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2026-05-01,36.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2026-06-01,31.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2026-07-01,27.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2026-08-01,33.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2026-09-01,31.0,,,,Actual,,steady,,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2026-10-01,,30.04,20.35,39.73,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2026-11-01,,30.04,16.33,43.75,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+26,2026-12-01,,30.04,13.25,46.83,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0026,Standard Controller Board 126,Electronics,B,X,BX,Apex Optics
+27,2024-10-01,22.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2024-11-01,31.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2024-12-01,36.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2025-01-01,32.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2025-02-01,33.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2025-03-01,33.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2025-04-01,23.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2025-05-01,45.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2025-06-01,25.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2025-07-01,27.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2025-08-01,19.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2025-09-01,31.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2025-10-01,30.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2025-11-01,24.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2025-12-01,39.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2026-01-01,33.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2026-02-01,25.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2026-03-01,55.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2026-04-01,46.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2026-05-01,30.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2026-06-01,43.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2026-07-01,27.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2026-08-01,32.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2026-09-01,33.0,,,,Actual,,steady,,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2026-10-01,,32.25,15.98,48.52,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2026-11-01,,32.25,9.24,55.26,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+27,2026-12-01,,32.25,4.06,60.44,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0027,Heavy-Duty Shop Towel Roll 127,Consumables,B,X,BX,Meridian Textiles
+28,2024-10-01,64.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2024-11-01,57.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2024-12-01,67.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2025-01-01,63.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2025-02-01,71.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2025-03-01,62.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2025-04-01,68.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2025-05-01,70.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2025-06-01,69.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2025-07-01,73.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2025-08-01,72.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2025-09-01,62.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2025-10-01,76.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2025-11-01,62.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2025-12-01,60.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2026-01-01,60.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2026-02-01,55.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2026-03-01,77.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2026-04-01,85.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2026-05-01,80.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2026-06-01,71.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2026-07-01,79.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2026-08-01,74.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2026-09-01,71.0,,,,Actual,,steady,,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2026-10-01,,74.84,61.66,88.02,Forecast,2026-10-01,steady,Linear trend ETS,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2026-11-01,,75.33,56.7,93.97,Forecast,2026-11-01,steady,Linear trend ETS,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+28,2026-12-01,,75.83,53.01,98.65,Forecast,2026-12-01,steady,Linear trend ETS,SKU-0028,Modular Shipping Label Roll 128,Packaging,C,X,CX,Vertex Electronics
+29,2024-10-01,16.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2024-11-01,19.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2024-12-01,24.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2025-01-01,23.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2025-02-01,11.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2025-03-01,6.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2025-04-01,6.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2025-05-01,3.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2025-06-01,2.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2025-07-01,5.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2025-08-01,8.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2025-09-01,16.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2025-10-01,15.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2025-11-01,17.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2025-12-01,11.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2026-01-01,12.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2026-02-01,11.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2026-03-01,9.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2026-04-01,5.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2026-05-01,3.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2026-06-01,8.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2026-07-01,6.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2026-08-01,12.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2026-09-01,19.0,,,,Actual,,seasonal,,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2026-10-01,,19.0,10.26,27.74,Forecast,2026-10-01,seasonal,Simple exponential smoothing,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2026-11-01,,19.0,6.64,31.36,Forecast,2026-11-01,seasonal,Simple exponential smoothing,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+29,2026-12-01,,19.0,3.87,34.13,Forecast,2026-12-01,seasonal,Simple exponential smoothing,SKU-0029,Reinforced Cleaning Solvent 129,Consumables,C,Y,CY,Atlas Fasteners
+30,2024-10-01,17.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2024-11-01,18.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2024-12-01,20.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2025-01-01,28.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2025-02-01,13.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2025-03-01,32.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2025-04-01,26.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2025-05-01,13.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2025-06-01,22.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2025-07-01,22.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2025-08-01,22.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2025-09-01,17.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2025-10-01,12.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2025-11-01,20.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2025-12-01,23.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2026-01-01,20.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2026-02-01,15.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2026-03-01,22.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2026-04-01,19.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2026-05-01,19.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2026-06-01,13.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2026-07-01,22.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2026-08-01,26.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2026-09-01,13.0,,,,Actual,,steady,,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2026-10-01,,19.75,9.82,29.68,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2026-11-01,,19.75,5.7,33.8,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+30,2026-12-01,,19.75,2.54,36.96,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0030,Compact Hydraulic Hose 130,Industrial Components,B,X,BX,Cascade Chemicals
+31,2024-10-01,22.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2024-11-01,20.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2024-12-01,19.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2025-01-01,32.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2025-02-01,21.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2025-03-01,28.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2025-04-01,14.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2025-05-01,35.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2025-06-01,26.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2025-07-01,32.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2025-08-01,36.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2025-09-01,37.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2025-10-01,32.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2025-11-01,23.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2025-12-01,18.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2026-01-01,20.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2026-02-01,16.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2026-03-01,24.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2026-04-01,28.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2026-05-01,31.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2026-06-01,30.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2026-07-01,33.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2026-08-01,23.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2026-09-01,30.0,,,,Actual,,steady,,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2026-10-01,,28.3,14.94,41.66,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2026-11-01,,28.3,9.4,47.2,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+31,2026-12-01,,28.3,5.15,51.44,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0031,Industrial Respirator Cartridge 131,Safety Equipment,B,X,BX,Cascade Chemicals
+32,2024-10-01,130.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2024-11-01,113.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2024-12-01,105.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2025-01-01,102.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2025-02-01,67.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2025-03-01,61.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2025-04-01,47.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2025-05-01,36.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2025-06-01,55.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2025-07-01,74.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2025-08-01,89.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2025-09-01,126.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2025-10-01,142.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2025-11-01,129.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2025-12-01,111.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2026-01-01,124.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2026-02-01,77.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2026-03-01,51.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2026-04-01,37.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2026-05-01,52.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2026-06-01,50.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2026-07-01,79.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2026-08-01,92.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2026-09-01,120.0,,,,Actual,,seasonal,,SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2026-10-01,,140.78,131.18,150.38,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2026-11-01,,125.71,112.14,139.29,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+32,2026-12-01,,112.09,95.46,128.71,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0032,Eco Gear Coupling 132,Industrial Components,B,X,BX,BlueLine Packaging
+33,2024-10-01,133.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2024-11-01,111.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2024-12-01,102.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2025-01-01,59.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2025-02-01,31.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2025-03-01,25.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2025-04-01,20.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2025-05-01,43.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2025-06-01,56.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2025-07-01,71.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2025-08-01,95.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2025-09-01,129.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2025-10-01,145.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2025-11-01,91.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2025-12-01,103.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2026-01-01,54.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2026-02-01,29.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2026-03-01,22.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2026-04-01,21.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2026-05-01,33.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2026-06-01,69.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2026-07-01,90.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2026-08-01,115.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2026-09-01,103.0,,,,Actual,,seasonal,,SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2026-10-01,,137.99,124.48,151.5,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2026-11-01,,100.19,81.08,119.3,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+33,2026-12-01,,101.85,78.45,125.26,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0033,Premium Steel Bracket 133,Hardware,B,Y,BY,Northwind Components
+34,2024-10-01,17.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2024-11-01,29.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2024-12-01,23.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2025-01-01,22.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2025-02-01,30.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2025-03-01,33.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2025-04-01,34.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2025-05-01,23.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2025-06-01,35.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2025-07-01,19.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2025-08-01,11.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2025-09-01,10.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2025-10-01,12.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2025-11-01,11.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2025-12-01,19.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2026-01-01,35.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2026-02-01,23.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2026-03-01,24.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2026-04-01,30.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2026-05-01,26.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2026-06-01,23.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2026-07-01,20.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2026-08-01,17.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2026-09-01,16.0,,,,Actual,,seasonal,,SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2026-10-01,,9.92,2.3,17.55,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2026-11-01,,16.34,5.55,27.12,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+34,2026-12-01,,18.07,4.86,31.28,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0034,Precision Pressure Gauge 134,Industrial Components,B,Y,BY,Sierra Plastics
+35,2024-10-01,5.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2024-11-01,5.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2024-12-01,21.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2025-01-01,9.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2025-02-01,18.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2025-03-01,8.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2025-04-01,7.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2025-05-01,16.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2025-06-01,10.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2025-07-01,13.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2025-08-01,27.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2025-09-01,25.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2025-10-01,0.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2025-11-01,15.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2025-12-01,0.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2026-01-01,6.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2026-02-01,25.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2026-03-01,0.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2026-04-01,4.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2026-05-01,0.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2026-06-01,4.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2026-07-01,0.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2026-08-01,2.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2026-09-01,5.0,,,,Actual,,intermittent,,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2026-10-01,,9.37,0.0,25.99,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2026-11-01,,9.37,0.0,32.88,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+35,2026-12-01,,9.37,0.0,38.16,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0035,High-Temp Hydraulic Hose 135,Industrial Components,C,Z,CZ,Apex Optics
+36,2024-10-01,8.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2024-11-01,20.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2024-12-01,4.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2025-01-01,0.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2025-02-01,0.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2025-03-01,5.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2025-04-01,0.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2025-05-01,22.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2025-06-01,15.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2025-07-01,0.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2025-08-01,8.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2025-09-01,1.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2025-10-01,0.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2025-11-01,0.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2025-12-01,6.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2026-01-01,7.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2026-02-01,2.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2026-03-01,1.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2026-04-01,24.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2026-05-01,0.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2026-06-01,14.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2026-07-01,14.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2026-08-01,0.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2026-09-01,0.0,,,,Actual,,intermittent,,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2026-10-01,,6.29,0.0,21.19,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2026-11-01,,6.29,0.0,27.36,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+36,2026-12-01,,6.29,0.0,32.1,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0036,Standard Flange Bearing 136,Hardware,C,Z,CZ,Vertex Electronics
+37,2024-10-01,0.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2024-11-01,17.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2024-12-01,2.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2025-01-01,0.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2025-02-01,11.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2025-03-01,13.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2025-04-01,12.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2025-05-01,15.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2025-06-01,5.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2025-07-01,9.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2025-08-01,16.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2025-09-01,19.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2025-10-01,1.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2025-11-01,3.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2025-12-01,0.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2026-01-01,11.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2026-02-01,15.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2026-03-01,17.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2026-04-01,9.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2026-05-01,10.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2026-06-01,7.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2026-07-01,0.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2026-08-01,16.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2026-09-01,9.0,,,,Actual,,intermittent,,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2026-10-01,,9.04,0.0,21.21,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2026-11-01,,9.04,0.0,26.25,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+37,2026-12-01,,9.04,0.0,30.12,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0037,Heavy-Duty Hard Hat 137,Safety Equipment,C,Z,CZ,Vertex Electronics
+38,2024-10-01,2.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2024-11-01,41.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2024-12-01,20.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2025-01-01,34.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2025-02-01,56.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2025-03-01,24.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2025-04-01,58.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2025-05-01,32.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2025-06-01,25.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2025-07-01,21.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2025-08-01,22.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2025-09-01,37.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2025-10-01,47.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2025-11-01,11.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2025-12-01,29.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2026-01-01,41.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2026-02-01,61.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2026-03-01,31.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2026-04-01,47.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2026-05-01,12.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2026-06-01,36.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2026-07-01,15.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2026-08-01,6.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2026-09-01,10.0,,,,Actual,,intermittent,,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2026-10-01,,29.92,0.0,61.73,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2026-11-01,,29.92,0.0,74.91,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+38,2026-12-01,,29.92,0.0,85.02,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0038,Modular Drive Belt 138,Industrial Components,B,Z,BZ,Vertex Electronics
+39,2024-10-01,39.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2024-11-01,41.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2024-12-01,67.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2025-01-01,99.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2025-02-01,53.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2025-03-01,93.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2025-04-01,82.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2025-05-01,56.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2025-06-01,58.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2025-07-01,53.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2025-08-01,37.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2025-09-01,38.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2025-10-01,39.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2025-11-01,52.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2025-12-01,76.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2026-01-01,86.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2026-02-01,61.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2026-03-01,99.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2026-04-01,94.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2026-05-01,71.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2026-06-01,61.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2026-07-01,39.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2026-08-01,23.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2026-09-01,32.0,,,,Actual,,seasonal,,SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2026-10-01,,42.3,32.57,52.03,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2026-11-01,,49.18,35.41,62.94,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+39,2026-12-01,,73.67,56.82,90.53,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0039,Reinforced Pressure Gauge 139,Industrial Components,C,Y,CY,Harbor Safety
+40,2024-10-01,66.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2024-11-01,55.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2024-12-01,60.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2025-01-01,75.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2025-02-01,57.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2025-03-01,51.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2025-04-01,49.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2025-05-01,56.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2025-06-01,52.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2025-07-01,56.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2025-08-01,50.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2025-09-01,63.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2025-10-01,90.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2025-11-01,56.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2025-12-01,59.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2026-01-01,91.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2026-02-01,57.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2026-03-01,65.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2026-04-01,71.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2026-05-01,51.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2026-06-01,62.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2026-07-01,66.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2026-08-01,49.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2026-09-01,66.0,,,,Actual,,steady,,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2026-10-01,,61.37,39.58,83.17,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2026-11-01,,61.37,30.55,92.2,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+40,2026-12-01,,61.37,23.63,99.12,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0040,Compact Hi-Vis Vest 140,Safety Equipment,C,X,CX,Northwind Components
+41,2024-10-01,55.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2024-11-01,46.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2024-12-01,56.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2025-01-01,60.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2025-02-01,67.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2025-03-01,73.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2025-04-01,101.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2025-05-01,115.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2025-06-01,86.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2025-07-01,93.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2025-08-01,81.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2025-09-01,64.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2025-10-01,40.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2025-11-01,42.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2025-12-01,37.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2026-01-01,69.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2026-02-01,78.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2026-03-01,95.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2026-04-01,101.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2026-05-01,119.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2026-06-01,118.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2026-07-01,98.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2026-08-01,62.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2026-09-01,54.0,,,,Actual,,seasonal,,SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2026-10-01,,45.44,30.53,60.35,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2026-11-01,,42.35,21.26,63.43,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+41,2026-12-01,,45.17,19.35,71.0,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0041,Industrial Respirator Cartridge 141,Safety Equipment,B,X,BX,Northwind Components
+42,2024-10-01,137.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2024-11-01,176.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2024-12-01,162.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2025-01-01,163.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2025-02-01,127.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2025-03-01,161.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2025-04-01,176.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2025-05-01,172.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2025-06-01,173.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2025-07-01,192.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2025-08-01,162.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2025-09-01,183.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2025-10-01,157.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2025-11-01,154.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2025-12-01,158.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2026-01-01,164.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2026-02-01,146.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2026-03-01,180.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2026-04-01,192.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2026-05-01,194.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2026-06-01,192.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2026-07-01,187.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2026-08-01,199.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2026-09-01,136.0,,,,Actual,,steady,,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2026-10-01,,168.46,130.53,206.39,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2026-11-01,,168.46,114.82,222.1,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+42,2026-12-01,,168.46,102.76,234.15,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0042,Eco Power Relay 142,Electronics,B,X,BX,BlueLine Packaging
+43,2024-10-01,33.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2024-11-01,25.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2024-12-01,32.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2025-01-01,60.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2025-02-01,43.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2025-03-01,63.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2025-04-01,90.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2025-05-01,113.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2025-06-01,70.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2025-07-01,80.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2025-08-01,56.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2025-09-01,31.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2025-10-01,46.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2025-11-01,21.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2025-12-01,29.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2026-01-01,46.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2026-02-01,63.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2026-03-01,77.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2026-04-01,112.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2026-05-01,99.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2026-06-01,100.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2026-07-01,93.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2026-08-01,72.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2026-09-01,54.0,,,,Actual,,seasonal,,SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2026-10-01,,53.65,39.73,67.58,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2026-11-01,,37.08,17.39,56.78,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+43,2026-12-01,,44.51,20.39,68.64,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0043,Premium Steel Bracket 143,Hardware,B,X,BX,Vertex Electronics
+44,2024-10-01,131.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2024-11-01,80.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2024-12-01,61.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2025-01-01,37.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2025-02-01,39.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2025-03-01,44.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2025-04-01,101.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2025-05-01,108.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2025-06-01,144.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2025-07-01,151.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2025-08-01,137.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2025-09-01,149.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2025-10-01,118.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2025-11-01,101.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2025-12-01,51.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2026-01-01,32.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2026-02-01,36.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2026-03-01,43.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2026-04-01,79.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2026-05-01,96.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2026-06-01,101.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2026-07-01,133.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2026-08-01,177.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2026-09-01,108.0,,,,Actual,,seasonal,,SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2026-10-01,,111.43,89.71,133.14,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2026-11-01,,77.49,46.78,108.2,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+44,2026-12-01,,43.06,5.44,80.67,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0044,Precision Cleaning Solvent 144,Consumables,A,Y,AY,Summit Industrial
+45,2024-10-01,2.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2024-11-01,7.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2024-12-01,8.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2025-01-01,18.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2025-02-01,14.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2025-03-01,11.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2025-04-01,16.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2025-05-01,15.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2025-06-01,17.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2025-07-01,15.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2025-08-01,6.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2025-09-01,11.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2025-10-01,4.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2025-11-01,6.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2025-12-01,9.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2026-01-01,10.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2026-02-01,7.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2026-03-01,8.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2026-04-01,18.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2026-05-01,8.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2026-06-01,16.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2026-07-01,18.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2026-08-01,5.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2026-09-01,7.0,,,,Actual,,seasonal,,SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2026-10-01,,0.04,0.0,3.62,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2026-11-01,,3.56,0.0,8.62,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+45,2026-12-01,,5.57,0.0,11.77,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0045,High-Temp Hex Bolt Pack 145,Hardware,C,Y,CY,Vertex Electronics
+46,2024-10-01,14.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2024-11-01,20.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2024-12-01,28.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2025-01-01,18.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2025-02-01,24.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2025-03-01,24.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2025-04-01,17.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2025-05-01,14.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2025-06-01,41.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2025-07-01,19.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2025-08-01,23.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2025-09-01,16.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2025-10-01,44.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2025-11-01,27.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2025-12-01,6.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2026-01-01,19.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2026-02-01,15.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2026-03-01,25.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2026-04-01,27.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2026-05-01,13.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2026-06-01,39.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2026-07-01,49.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2026-08-01,31.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2026-09-01,34.0,,,,Actual,,intermittent,,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2026-10-01,,24.46,3.82,45.09,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2026-11-01,,24.46,0.0,53.64,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+46,2026-12-01,,24.46,0.0,60.2,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0046,Standard Controller Board 146,Electronics,C,Y,CY,Vertex Electronics
+47,2024-10-01,329.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2024-11-01,324.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2024-12-01,398.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2025-01-01,363.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2025-02-01,388.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2025-03-01,354.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2025-04-01,352.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2025-05-01,380.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2025-06-01,338.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2025-07-01,357.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2025-08-01,351.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2025-09-01,272.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2025-10-01,291.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2025-11-01,323.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2025-12-01,335.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2026-01-01,326.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2026-02-01,326.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2026-03-01,374.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2026-04-01,417.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2026-05-01,359.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2026-06-01,365.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2026-07-01,314.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2026-08-01,343.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2026-09-01,337.0,,,,Actual,,steady,,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2026-10-01,,346.5,283.99,409.01,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2026-11-01,,346.5,258.1,434.9,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+47,2026-12-01,,346.5,238.24,454.76,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0047,Heavy-Duty Hard Hat 147,Safety Equipment,A,X,AX,Apex Optics
+48,2024-10-01,14.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2024-11-01,18.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2024-12-01,20.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2025-01-01,34.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2025-02-01,37.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2025-03-01,40.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2025-04-01,44.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2025-05-01,49.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2025-06-01,28.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2025-07-01,44.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2025-08-01,19.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2025-09-01,13.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2025-10-01,18.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2025-11-01,17.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2025-12-01,27.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2026-01-01,26.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2026-02-01,30.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2026-03-01,32.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2026-04-01,45.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2026-05-01,40.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2026-06-01,46.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2026-07-01,31.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2026-08-01,15.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2026-09-01,13.0,,,,Actual,,seasonal,,SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2026-10-01,,13.56,5.55,21.56,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2026-11-01,,15.07,3.74,26.39,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+48,2026-12-01,,21.08,7.21,34.95,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0048,Modular Drive Belt 148,Industrial Components,A,Y,AY,Sierra Plastics
+49,2024-10-01,16.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2024-11-01,23.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2024-12-01,27.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2025-01-01,27.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2025-02-01,22.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2025-03-01,30.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2025-04-01,27.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2025-05-01,23.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2025-06-01,13.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2025-07-01,11.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2025-08-01,6.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2025-09-01,15.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2025-10-01,12.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2025-11-01,18.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2025-12-01,19.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2026-01-01,28.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2026-02-01,30.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2026-03-01,37.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2026-04-01,28.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2026-05-01,23.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2026-06-01,20.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2026-07-01,9.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2026-08-01,12.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2026-09-01,14.0,,,,Actual,,seasonal,,SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2026-10-01,,13.56,8.73,18.39,Forecast,2026-10-01,seasonal,Holt-Winters additive (damped),SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2026-11-01,,20.69,13.87,27.52,Forecast,2026-11-01,seasonal,Holt-Winters additive (damped),SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+49,2026-12-01,,23.66,15.3,32.03,Forecast,2026-12-01,seasonal,Holt-Winters additive (damped),SKU-0049,Reinforced Cleaning Solvent 149,Consumables,B,Y,BY,Meridian Textiles
+50,2024-10-01,106.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2024-11-01,85.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2024-12-01,99.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2025-01-01,94.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2025-02-01,90.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2025-03-01,83.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2025-04-01,97.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2025-05-01,95.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2025-06-01,85.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2025-07-01,75.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2025-08-01,80.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2025-09-01,83.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2025-10-01,102.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2025-11-01,104.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2025-12-01,99.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2026-01-01,110.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2026-02-01,107.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2026-03-01,94.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2026-04-01,95.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2026-05-01,77.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2026-06-01,75.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2026-07-01,84.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2026-08-01,111.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2026-09-01,94.0,,,,Actual,,steady,,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2026-10-01,,96.4,74.14,118.65,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2026-11-01,,96.4,64.92,127.87,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+50,2026-12-01,,96.4,57.85,134.95,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0050,Compact Wireless Sensor 150,Electronics,A,X,AX,Meridian Textiles
+51,2024-10-01,32.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2024-11-01,71.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2024-12-01,39.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2025-01-01,16.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2025-02-01,38.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2025-03-01,33.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2025-04-01,30.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2025-05-01,8.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2025-06-01,52.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2025-07-01,28.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2025-08-01,31.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2025-09-01,24.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2025-10-01,12.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2025-11-01,53.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2025-12-01,38.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2026-01-01,35.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2026-02-01,55.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2026-03-01,18.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2026-04-01,39.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2026-05-01,24.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2026-06-01,97.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2026-07-01,30.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2026-08-01,42.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2026-09-01,42.0,,,,Actual,,intermittent,,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2026-10-01,,36.96,0.1,73.82,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2026-11-01,,36.96,0.0,89.08,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+51,2026-12-01,,36.96,0.0,100.8,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0051,Industrial Safety Glasses 151,Consumables,C,Z,CZ,Vertex Electronics
+52,2024-10-01,107.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2024-11-01,110.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2024-12-01,141.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2025-01-01,121.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2025-02-01,117.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2025-03-01,116.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2025-04-01,122.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2025-05-01,114.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2025-06-01,116.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2025-07-01,110.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2025-08-01,115.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2025-09-01,98.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2025-10-01,115.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2025-11-01,82.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2025-12-01,92.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2026-01-01,124.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2026-02-01,122.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2026-03-01,136.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2026-04-01,123.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2026-05-01,110.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2026-06-01,89.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2026-07-01,115.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2026-08-01,114.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2026-09-01,86.0,,,,Actual,,steady,,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2026-10-01,,112.29,84.6,139.98,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2026-11-01,,112.29,73.13,151.45,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+52,2026-12-01,,112.29,64.33,160.26,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0052,Eco Shop Towel Roll 152,Consumables,B,X,BX,Harbor Safety
+53,2024-10-01,0.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2024-11-01,33.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2024-12-01,28.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2025-01-01,19.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2025-02-01,27.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2025-03-01,18.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2025-04-01,14.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2025-05-01,4.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2025-06-01,17.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2025-07-01,0.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2025-08-01,19.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2025-09-01,0.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2025-10-01,23.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2025-11-01,7.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2025-12-01,42.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2026-01-01,0.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2026-02-01,10.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2026-03-01,2.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2026-04-01,0.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2026-05-01,29.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2026-06-01,11.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2026-07-01,36.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2026-08-01,16.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2026-09-01,40.0,,,,Actual,,intermittent,,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2026-10-01,,16.46,0.0,42.41,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2026-11-01,,16.46,0.0,53.16,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+53,2026-12-01,,16.46,0.0,61.41,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0053,Premium LED Driver 153,Electronics,A,Z,AZ,BlueLine Packaging
+54,2024-10-01,50.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2024-11-01,30.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2024-12-01,56.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2025-01-01,43.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2025-02-01,45.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2025-03-01,18.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2025-04-01,57.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2025-05-01,32.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2025-06-01,43.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2025-07-01,56.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2025-08-01,98.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2025-09-01,41.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2025-10-01,80.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2025-11-01,16.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2025-12-01,48.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2026-01-01,15.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2026-02-01,50.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2026-03-01,53.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2026-04-01,42.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2026-05-01,67.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2026-06-01,32.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2026-07-01,40.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2026-08-01,62.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2026-09-01,43.0,,,,Actual,,intermittent,,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2026-10-01,,46.54,9.97,83.11,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2026-11-01,,46.54,0.0,98.26,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+54,2026-12-01,,46.54,0.0,109.88,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0054,Precision Poly Mailer 154,Packaging,A,Y,AY,Apex Optics
+55,2024-10-01,52.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2024-11-01,58.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2024-12-01,0.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2025-01-01,24.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2025-02-01,49.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2025-03-01,65.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2025-04-01,26.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2025-05-01,48.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2025-06-01,41.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2025-07-01,10.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2025-08-01,46.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2025-09-01,53.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2025-10-01,13.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2025-11-01,52.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2025-12-01,8.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2026-01-01,24.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2026-02-01,44.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2026-03-01,75.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2026-04-01,56.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2026-05-01,38.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2026-06-01,9.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2026-07-01,101.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2026-08-01,16.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2026-09-01,30.0,,,,Actual,,intermittent,,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2026-10-01,,39.08,0.0,85.37,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2026-11-01,,39.08,0.0,104.55,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+55,2026-12-01,,39.08,0.0,119.26,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0055,High-Temp Corrugated Carton 155,Packaging,C,Z,CZ,BlueLine Packaging
+56,2024-10-01,33.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2024-11-01,23.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2024-12-01,33.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2025-01-01,41.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2025-02-01,33.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2025-03-01,25.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2025-04-01,36.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2025-05-01,27.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2025-06-01,18.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2025-07-01,38.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2025-08-01,31.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2025-09-01,17.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2025-10-01,31.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2025-11-01,33.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2025-12-01,31.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2026-01-01,26.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2026-02-01,29.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2026-03-01,36.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2026-04-01,24.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2026-05-01,27.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2026-06-01,28.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2026-07-01,25.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2026-08-01,26.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2026-09-01,34.0,,,,Actual,,steady,,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2026-10-01,,29.37,18.02,40.73,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2026-11-01,,29.37,13.32,45.43,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+56,2026-12-01,,29.37,9.71,49.04,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0056,Standard Pallet Wrap 156,Packaging,C,X,CX,Meridian Textiles
+57,2024-10-01,10.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2024-11-01,0.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2024-12-01,0.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2025-01-01,6.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2025-02-01,2.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2025-03-01,2.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2025-04-01,7.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2025-05-01,0.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2025-06-01,7.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2025-07-01,10.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2025-08-01,1.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2025-09-01,3.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2025-10-01,5.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2025-11-01,6.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2025-12-01,2.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2026-01-01,3.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2026-02-01,0.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2026-03-01,2.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2026-04-01,1.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2026-05-01,0.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2026-06-01,2.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2026-07-01,4.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2026-08-01,2.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2026-09-01,4.0,,,,Actual,,intermittent,,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2026-10-01,,3.29,0.0,9.1,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2026-11-01,,3.29,0.0,11.51,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+57,2026-12-01,,3.29,0.0,13.36,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0057,Heavy-Duty Lock Washer 157,Hardware,C,Z,CZ,Meridian Textiles
+58,2024-10-01,52.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2024-11-01,61.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2024-12-01,52.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2025-01-01,44.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2025-02-01,25.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2025-03-01,98.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2025-04-01,85.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2025-05-01,32.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2025-06-01,67.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2025-07-01,12.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2025-08-01,127.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2025-09-01,49.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2025-10-01,48.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2025-11-01,12.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2025-12-01,58.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2026-01-01,51.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2026-02-01,26.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2026-03-01,67.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2026-04-01,52.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2026-05-01,44.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2026-06-01,21.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2026-07-01,32.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2026-08-01,29.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2026-09-01,77.0,,,,Actual,,intermittent,,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2026-10-01,,50.88,0.0,103.1,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2026-11-01,,50.88,0.0,124.73,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+58,2026-12-01,,50.88,0.0,141.33,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0058,Modular Ear Protection 158,Safety Equipment,B,Y,BY,Redwood Paper
+59,2024-10-01,7.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2024-11-01,0.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2024-12-01,13.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2025-01-01,7.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2025-02-01,3.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2025-03-01,16.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2025-04-01,3.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2025-05-01,7.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2025-06-01,12.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2025-07-01,10.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2025-08-01,1.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2025-09-01,8.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2025-10-01,4.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2025-11-01,9.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2025-12-01,4.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2026-01-01,17.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2026-02-01,10.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2026-03-01,12.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2026-04-01,3.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2026-05-01,12.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2026-06-01,2.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2026-07-01,9.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2026-08-01,8.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2026-09-01,12.0,,,,Actual,,intermittent,,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2026-10-01,,7.87,0.0,16.84,Forecast,2026-10-01,intermittent,Simple exponential smoothing,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2026-11-01,,7.87,0.0,20.56,Forecast,2026-11-01,intermittent,Simple exponential smoothing,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+59,2026-12-01,,7.87,0.0,23.41,Forecast,2026-12-01,intermittent,Simple exponential smoothing,SKU-0059,Reinforced Pressure Gauge 159,Industrial Components,C,Z,CZ,Vertex Electronics
+60,2024-10-01,161.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2024-11-01,145.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2024-12-01,175.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2025-01-01,182.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2025-02-01,169.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2025-03-01,187.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2025-04-01,176.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2025-05-01,202.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2025-06-01,181.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2025-07-01,164.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2025-08-01,142.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2025-09-01,157.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2025-10-01,169.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2025-11-01,146.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2025-12-01,169.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2026-01-01,181.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2026-02-01,174.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2026-03-01,198.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2026-04-01,188.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2026-05-01,180.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2026-06-01,167.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2026-07-01,180.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2026-08-01,169.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2026-09-01,158.0,,,,Actual,,steady,,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2026-10-01,,163.94,133.44,194.43,Forecast,2026-10-01,steady,Simple exponential smoothing,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2026-11-01,,163.94,120.81,207.06,Forecast,2026-11-01,steady,Simple exponential smoothing,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
+60,2026-12-01,,163.94,111.11,216.76,Forecast,2026-12-01,steady,Simple exponential smoothing,SKU-0060,Compact Hi-Vis Vest 160,Safety Equipment,A,X,AX,BlueLine Packaging
